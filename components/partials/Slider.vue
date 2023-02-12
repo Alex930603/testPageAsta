@@ -22,7 +22,7 @@ import './../../node_modules/vue3-carousel/dist/carousel.css'
 
 
 export default defineComponent({
-  name: 'Basic',
+  name: 'Slider',
   components: {
     Carousel,
     Slide,

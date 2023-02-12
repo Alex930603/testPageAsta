@@ -2,7 +2,9 @@
 
   <div class="flex-column">
     <Navb />
-    <Carousel />
+    <Slider />
+    <HouseForm />
+    <BlogSlide />
   </div>
 
 
@@ -13,7 +15,10 @@
 var test = [1, 2, 3, 4]
 
 import Navb from './partials/Navb.vue';
-import Carousel from './partials/Carousel.vue';
+import Slider from './partials/Slider.vue';
+import BlogSlide from './partials/BlogSlide.vue';
+import HouseFormVue from './HouseForm.vue';
+
 
 
 export default {
@@ -21,10 +26,10 @@ export default {
   name: "FirstPage",
 
   components: {
-
-    Carousel,
-    Navb
-
+    Slider,
+    Navb,
+    BlogSlide,
+    HouseFormVue
   }
 }
 

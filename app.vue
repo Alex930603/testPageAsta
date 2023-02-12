@@ -3,8 +3,6 @@
 <script setup>
 
 import HouseForm from "./components/HouseForm.vue"
-import Navb from "./components/partials/Navb.vue"
-import Carousel from "./components/partials/Carousel.vue"
 import FirstPage from "./components/FirstPage.vue"
 import "./assets/css/tailwind.css"
 
@@ -16,7 +14,6 @@ import "./assets/css/tailwind.css"
     <div class="w-8/12 flex-column bg-white pt-5 rounded">
       <div class=" flex-column justify-center">
         <FirstPage />
-        <HouseForm />
 
       </div>
     </div>
